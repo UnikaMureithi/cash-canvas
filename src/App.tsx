@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Button from '@mui/material/Button';
+import theme from './theme/Theme';
+import { ThemeProvider } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Contact from './components/Contact';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar/>
+      
+      {/* <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      // minHeight="100vh"
+      >
+
+      <ThemeProvider theme={theme}><Button variant="contained">Hello World</Button></ThemeProvider>
+
+      </Box> */}
+      <br/><br/><br/>
+      
+      <Contact/>
+
     </div>
   );
 }
