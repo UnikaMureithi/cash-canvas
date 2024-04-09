@@ -5,6 +5,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div>
       <NavBar/>
       <Hero />
+      <Footer/>
       
       {/* <Box
       display="flex"
