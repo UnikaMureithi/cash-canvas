@@ -37,7 +37,7 @@ function Hero() {
         >Welcome to Cash Canvas</Typography>
     </Box>
 
-<Box sx={{ marginTop: 4 }} >
+<Box sx={{ marginTop: 4, paddingLeft: 2, paddingRight: 2 }} >
 <Grid container spacing={2}>
   {/* Income Section */}
   <Grid item xs={4}>
@@ -47,6 +47,10 @@ function Hero() {
         backgroundColor: '#f0f0f0',
         padding: 2,
         borderRadius: 4,
+        transition: 'background-color 0.3s',
+              '&:hover': {
+                backgroundColor: '#c8e6c9',
+              },
       }}
     >
       <AttachMoney fontSize="large" />
@@ -62,6 +66,10 @@ function Hero() {
         backgroundColor: '#f0f0f0',
         padding: 2,
         borderRadius: 4,
+        transition: 'background-color 0.3s',
+        '&:hover': {
+          backgroundColor: '#c8e6c9',
+        },
       }}
     >
       <MoneyOff fontSize="large" />
@@ -77,6 +85,10 @@ function Hero() {
         backgroundColor: '#f0f0f0',
         padding: 2,
         borderRadius: 4,
+        transition: 'background-color 0.3s',
+        '&:hover': {
+          backgroundColor: '#c8e6c9',
+        },
       }}
     >
       <AccountBalance fontSize="large" />
