@@ -37,7 +37,7 @@ function Hero() {
         >Welcome to Cash Canvas</Typography>
     </Box>
 
-<Box sx={{ marginTop: 4, paddingLeft: 2, paddingRight: 2 }} >
+<Box sx={{ marginTop: 4, paddingLeft: 2, paddingRight: 2, marginBottom:4 }} >
 <Grid container spacing={2}>
   {/* Income Section */}
   <Grid item xs={4}>
