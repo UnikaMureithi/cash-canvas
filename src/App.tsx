@@ -15,17 +15,6 @@ function App() {
       <Hero />
       <Footer/>
       
-      {/* <Box
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      // minHeight="100vh"
-      >
-
-      <ThemeProvider theme={theme}><Button variant="contained">Hello World</Button></ThemeProvider>
-
-      </Box> */}
-      
     </div>
   );
 }

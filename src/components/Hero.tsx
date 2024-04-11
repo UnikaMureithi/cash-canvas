@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { AttachMoney, MoneyOff, AccountBalance } from '@mui/icons-material'; // Import icons
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import back from "../images/back.jpg";
 // import hero from "../images/hero.jpg";
 
@@ -33,6 +34,7 @@ function Hero() {
         }}
 
         >Welcome to Cash Canvas!</Typography>
+
         <Typography
         variant="h2"
         sx={{
@@ -51,7 +53,25 @@ function Hero() {
         simplifying personal finance management with effortless 
         expense, income, and savings tracking.</Typography>
 
-    </Box>
+        <Box sx={{ textAlign: 'center', marginTop: 5 }}>
+          <Button 
+            variant="contained" 
+            sx={{ 
+              backgroundColor: '#117864', 
+              color: 'white', 
+              fontSize: '1.2rem', 
+              padding: '12px 24px',
+              '&:hover': {
+                backgroundColor: 'black',
+              }
+            }}
+          >
+            Get Started
+          </Button>
+        </Box>
+      </Box>
+
+    
 
     {/* <Box
   sx={{
