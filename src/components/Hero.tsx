@@ -3,11 +3,9 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { AttachMoney, MoneyOff, AccountBalance } from '@mui/icons-material'; // Import icons
 import Typography from '@mui/material/Typography';
-// import Toolbar from '@mui/material/Toolbar';
-// import Button from '@mui/material/Button';
-// import IconButton from '@mui/material/IconButton';
-// import MenuIcon from '@mui/icons-material/Menu';
 import back from "../images/back.jpg";
+// import hero from "../images/hero.jpg";
+
 
 function Hero() {
   return (
@@ -34,8 +32,40 @@ function Hero() {
         
         }}
 
-        >Welcome to Cash Canvas</Typography>
+        >Welcome to Cash Canvas!</Typography>
+        <Typography
+        variant="h2"
+        sx={{
+          paddingLeft: 7,
+          paddingRight: 7,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          textAlign: 'center',
+          color: 'white',
+          fontSize: '1.7rem',
+          fontFamily: 'Nunito',
+        }}
+
+        >Your all-in-one finance tracker, 
+        simplifying personal finance management with effortless 
+        expense, income, and savings tracking.</Typography>
+
     </Box>
+
+    {/* <Box
+  sx={{
+    width: "100%",
+    backgroundSize: "35% 50%",
+    backgroundRepeat: "no-repeat",
+    height: "100vh",
+    backgroundImage: `url(${hero})`,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  }}
+></Box> */}
+
 
 <Box sx={{ marginTop: 4, paddingLeft: 2, paddingRight: 2, marginBottom:4 }} >
 <Grid container spacing={2}>
